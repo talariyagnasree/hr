@@ -1,0 +1,78 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: #2e8b57;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #2e8b57;
+    text-align: center;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1d6e3c;
+}
+
+
+
+/* Container to center the image */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the image */
+.styled-image {
+    width: 300px; /* Resize the image */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: transform 0.3s ease; /* Optional: smooth hover effect */
+}
+
+/* Optional: Hover effect */
+.styled-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
